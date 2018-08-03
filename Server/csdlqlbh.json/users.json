@@ -1,0 +1,18 @@
+{ 
+    "_id" : ObjectId("5af7f321a8cc432afc1c0c96"), 
+    "username" : "sang", 
+    "password" : "123456", 
+    "email" : "tuansang9710@gmail.com", 
+    "name" : "Tuấn Sang", 
+    "DOB" : NumberInt(0), 
+    "permission" : NumberInt(1)
+}
+{ 
+    "_id" : ObjectId("5af7f325a8cc432afc1c0c97"), 
+    "password" : "123456", 
+    "email" : "akino@gmail.com", 
+    "name" : "Akino", 
+    "DOB" : NumberInt(0), 
+    "permission" : NumberInt(1), 
+    "username" : "akino"
+}

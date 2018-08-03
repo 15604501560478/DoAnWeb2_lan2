@@ -1,5 +1,98 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+@import "~animate.css/animate.min.css";
+@import '~ant-design-pro/dist/ant-design-pro.css';
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,700);
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e5 !important;
+    height: 100%;
+}
+
+.editable-cell {
+    position: relative;
+}
+
+.editable-cell-input-wrapper,
+.editable-cell-text-wrapper {
+    padding-right: 24px;
+}
+
+.editable-cell-text-wrapper {
+    padding: 5px 24px 5px 5px;
+}
+
+.editable-cell-icon,
+.editable-cell-icon-check {
+    position: absolute;
+    right: 0;
+    width: 20px;
+    cursor: pointer;
+}
+
+.editable-cell-icon {
+    line-height: 18px;
+    display: none;
+}
+
+.editable-cell-icon-check {
+    line-height: 28px;
+}
+
+.editable-cell:hover .editable-cell-icon {
+    display: inline-block;
+}
+
+.editable-cell-icon:hover,
+.editable-cell-icon-check:hover {
+    color: #108ee9;
+}
+
+.editable-add-btn {
+    margin-bottom: 8px;
+}
+
+.ant-carousel {
+    margin-right: 24px !important;
+}
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+}
+
+.mini-cart {
+    overflow: auto;
+    padding: 0 20px;
+    height: 300px;
+    width: 350px
+}
+
+.text-title {
+    font-size: 2rem;
+}
+
+/* rewrite css */
+
+.antd-pro-charts--pie-pie .antd-pro-charts--pie-legend {
+    min-width: 300px;
+}
+
+.ant-btn-primary {
+    color: #fff;
+    background-color: #1DA57A !important;
+    border-color: #1DA57A !important;
+}
+
+.ant-btn-primary:hover {
+    border-color: #1DA57A !important;
+    opacity: 0.8;
+}
+
+.ant-btn-primary:active:focus {
+    border-color: #136b4f !important;
+    background-color: #136b4f !important;
 }
